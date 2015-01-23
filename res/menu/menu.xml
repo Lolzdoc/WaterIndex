@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menyid"
+          android:title="Saker händer"
+          android:titleCondensed="string"
+          android:icon="@drawable/icon"
+          android:onClick="method name"
+          android:showAsAction="withText"
+    android:actionLayout="@layout/main"
+    android:actionViewClass="android.widget.SearchView"
+    android:actionProviderClass="android.widget.ShareActionProvider"
+    android:alphabeticShortcut="HEj"
+    android:numericShortcut="112312"
+    android:checkable="true"
+    android:visible="true"
+    android:enabled="false"
+    android:menuCategory="container"
+    android:orderInCategory="7" />
+
+        </menu>
